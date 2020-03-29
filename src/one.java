@@ -6,45 +6,7 @@ import org.junit.Test;
  */
 
 public class one {
-//	public boolean Find(int target, int [][] array) {
-//		int len=array[0].length;
-//		int p=0,q=len-1;
-//		int avg=0;
-//		while (p<=q){
-//			avg=(p+q)/2;
-//			if(target>array[0][avg]){
-//				p=avg+1;
-//			}else if(target<array[0][avg]){
-//				q=avg-1;
-//			}else {
-//				return true;
-//			}
-//		}
-//		if(q<0){
-//			return false;
-//		}
-//		int len2=array.length;
-//		int i=0,j=len2-1;
-//		int half=0;
-//		for(int sd=0;sd<array[0].length;sd++){
-//			for(int sb=0;sb<array.length;sb++){
-//				System.out.print(array[sd][sb]+"\t");
-//			}
-//			System.out.println();
-//		}
-//
-//		while (i<=j){
-//			half=(i+j)/2;
-//			if(target>array[half][q]){
-//				i=half+1;
-//			}else if(target<array[half][q]){
-//				j=half-1;
-//			}else {
-//				return true;
-//			}
-//		}
-//		return false;
-//	}
+
 	public boolean Find(int target, int [][] array) {
 		int row=array.length-1;
 		int col=0;

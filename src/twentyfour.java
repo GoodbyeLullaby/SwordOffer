@@ -49,6 +49,6 @@ public class twentyfour {
  	@Test
 	public void test()
 	{
-		TreeNode treeNode=new TreeNode();
+//		TreeNode treeNode=new TreeNode("");
 	}
 }
