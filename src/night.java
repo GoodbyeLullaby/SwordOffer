@@ -36,6 +36,10 @@ public class night {
 		}
 		return temp;
 	}
+	public int JumpFloorII3(int target) {
+
+		return (int) Math.pow(2,target);
+	}
 	@Test
 	public void test(){
 		System.out.println(JumpFloorII(3));
